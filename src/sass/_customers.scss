@@ -1,0 +1,18 @@
+.customers {
+    background-image: url(../images/customers-bg.png);
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+.customers-title {
+    font-size: 42px;
+    line-height: calc(49/42);
+    color: var(--main-text);
+}
+
+.customers-text {
+    font-size: 16px;
+    line-height: calc(19/16);
+    color: var(--main-text);
+}
