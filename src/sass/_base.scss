@@ -1,0 +1,47 @@
+:root {
+    --main-button: #BBF330;
+    --border-button: #7EB101;
+    --background: #FFE550;
+    --main-text: #2C2C2C;
+    --main-background: #FEFEFE;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--main-background);
+    color: var(--main-text);
+}
+
+button {
+    font-family: inherit;
+    cursor: pointer;
+}
+
+img {
+    display: block;
+}
+
+.container {
+    width: 1280px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin: 0 auto;
+}
